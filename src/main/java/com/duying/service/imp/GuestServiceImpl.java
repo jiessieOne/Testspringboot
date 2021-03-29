@@ -1,0 +1,20 @@
+package com.duying.service.imp;
+
+import com.duying.dao.GuestDao;
+import com.duying.entity.Guest;
+import com.duying.service.GuestService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public class GuestServiceImpl implements GuestService{
+
+    @Autowired
+    private GuestDao guestDao;
+
+    public List<Guest> findAll(){
+        return guestDao.findAll();
+    }
+}
