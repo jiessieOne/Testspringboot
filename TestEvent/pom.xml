@@ -5,25 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.duying</groupId>
-  <artifactId>testSpringboot2021</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>testSpringbootMybatis2021_3_29</module>
-        <module>testSpringboot_orm_mybatis_manyDatasources</module>
-        <module>TestEvent</module>
-    </modules>
+  <artifactId>TestEvent</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
-    <name>testSpringboot2021</name>
+  <name>TestEvent</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.7</maven.compiler.source>
-    <maven.compiler.target>1.7</maven.compiler.target>
-  </properties>
-
 
     <!--    超级父pom 是springboot父依赖 声明版本号-->
     <parent>
@@ -31,6 +18,11 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.1.18.RELEASE</version>
     </parent>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
 
   <dependencies>
     <dependency>
@@ -87,20 +79,19 @@
           <artifactId>spring-boot-starter-thymeleaf</artifactId>
       </dependency>
 
-<!--       JPA依赖-->
-      <dependency>
-          <groupId>org.springframework.boot</groupId>
-          <artifactId>spring-boot-starter-data-jpa</artifactId>
-      </dependency>
-
-<!--        数据库-->
+      <!--        数据库-->
       <dependency>
           <groupId>mysql</groupId>
           <artifactId>mysql-connector-java</artifactId>
           <version>5.1.49</version>
       </dependency>
 
-
+      <!-- springboot的mybatis依赖 -->
+      <dependency>
+          <groupId>org.mybatis.spring.boot</groupId>
+          <artifactId>mybatis-spring-boot-starter</artifactId>
+          <version>2.1.0</version>
+      </dependency>
 
   </dependencies>
 

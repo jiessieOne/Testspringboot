@@ -1,0 +1,24 @@
+spring:
+  mvc:
+    view:
+      suffix: .ftl
+      prefix: /templates/
+#  main:
+#    allow-bean-definition-overriding: true
+  datasource:
+    db1:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/program?useSSL=false&&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: msf731120
+    db2:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/emp?useSSL=false&&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: msf731120
+mybatis:
+  config-location: classpath*:/mappers/*.xml
+  type-aliases-package: com.duying.entity
+
+
+

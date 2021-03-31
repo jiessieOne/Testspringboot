@@ -9,6 +9,8 @@ import java.util.List;
 @Repository
 public interface GuestDao {
 
+
+    @Select("select * from guest")
     List<Guest> findGuestAll();
 
 }
