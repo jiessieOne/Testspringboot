@@ -7,22 +7,30 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="testSpringboot_FilterAndInterceptor2021_4_2" />
         <module name="testSpringboot_orm_mybatis_manyDatasources" />
-        <module name="TestEvent" />
         <module name="testSpringbootMybatis2021_3_29" />
+        <module name="TestEvent" />
+        <module name="testSpringbootDataCheck2021_4_03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SpringbootDataEnsure2021_4_03" target="1.7" />
       <module name="TestSpringboot_EventListener2021_3_31" target="1.7" />
+      <module name="testSpringbootDataEnsure2021_4_03" target="1.8" />
       <module name="testSprintboot_EventListener2021_03_31" target="1.7" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringbootDataEnsure2021_4_03" options="-parameters" />
       <module name="TestEvent" options="-parameters" />
       <module name="TestSpringboot_EventListener2021_3_31" options="-parameters" />
       <module name="testSpringboot2021" options="-parameters" />
+      <module name="testSpringbootDataCheck2021_4_03" options="-parameters" />
+      <module name="testSpringbootDataEnsure2021_4_03" options="-parameters" />
       <module name="testSpringbootMybatis2021_3_29" options="-parameters" />
+      <module name="testSpringboot_FilterAndInterceptor2021_4_2" options="-parameters" />
       <module name="testSpringboot_orm_mybatis_manyDatasources" options="-parameters" />
       <module name="testSprintboot_EventListener2021_03_31" options="-parameters" />
     </option>

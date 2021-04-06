@@ -9,6 +9,8 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/SpringbootDataEnsure2021_4_03/pom.xml" />
+        <option value="$PROJECT_DIR$/testSpringbootDataEnsure2021_4_03/pom.xml" />
         <option value="$PROJECT_DIR$/testSprintboot_EventListener2021_03_31/pom.xml" />
       </set>
     </option>

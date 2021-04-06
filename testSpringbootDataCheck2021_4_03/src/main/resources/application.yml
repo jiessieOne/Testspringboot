@@ -1,0 +1,7 @@
+spring:
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .ftl
+logging:
+  path: C:\Users\AIERXUAN\IdeaProjects\testSpringboot2021\testSpringbootDataCheck2021_4_03\src\log

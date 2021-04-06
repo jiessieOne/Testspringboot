@@ -12,6 +12,11 @@
         <module>testSpringbootMybatis2021_3_29</module>
         <module>testSpringboot_orm_mybatis_manyDatasources</module>
         <module>TestEvent</module>
+        <module>testSpringboot_FilterAndInterceptor2021_4_2</module>
+        <module>testSpringbootDataEnsure2021_4_03</module>
+        <module>testSpringbootDataEnsure2021_4_03</module>
+        <module>testSpringbootDataEnsure2021_4_03</module>
+        <module>testSpringbootDataCheck2021_4_03</module>
     </modules>
 
     <name>testSpringboot2021</name>
